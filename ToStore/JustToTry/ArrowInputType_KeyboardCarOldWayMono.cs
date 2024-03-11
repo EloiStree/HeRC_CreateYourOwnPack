@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class ArrowInputType_KeyboardOldWayMono : MonoBehaviour { 
+public class ArrowInputType_KeyboardCarOldWayMono : MonoBehaviour
+{
 
 
-    public KeyCode m_up= KeyCode.UpArrow;
-    public KeyCode m_down= KeyCode.DownArrow;
-    public KeyCode m_left= KeyCode.LeftArrow;
-    public KeyCode m_right= KeyCode.RightArrow;
+    public KeyCode m_up = KeyCode.UpArrow;
+    public KeyCode m_down = KeyCode.DownArrow;
+    public KeyCode m_left = KeyCode.LeftArrow;
+    public KeyCode m_right = KeyCode.RightArrow;
     public BooleanUnityEvent m_onUp;
     public BooleanUnityEvent m_onDown;
     public BooleanUnityEvent m_onLeft;
